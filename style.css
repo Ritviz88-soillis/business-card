@@ -1,0 +1,37 @@
+body {
+    margin: 50px;
+   font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+}
+
+.avatar {
+    width: 150px;
+    height: 190px;
+}
+
+p {
+    font-size: medium;
+    font-weight: 500;    
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #C8B7A2;
+    color: #241d1D;
+    border-radius: 10px;
+    border-bottom: 10px solid #C9936B;
+    box-shadow: 60px -16px wheat;
+
+}
+
+p:hover{
+     background-color: wheat;
+     color: black;
+     cursor: pointer;
+}
+
+
